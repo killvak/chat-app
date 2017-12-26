@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		848505131FF243FA006E8A8C /* UIViewX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848505121FF243FA006E8A8C /* UIViewX.swift */; };
+		848505151FF24463006E8A8C /* ChatCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848505141FF24463006E8A8C /* ChatCell.swift */; };
 		84944B001FF1081E005817D8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84944AFF1FF1081E005817D8 /* AppDelegate.swift */; };
 		84944B021FF1081E005817D8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84944B011FF1081E005817D8 /* ViewController.swift */; };
 		84944B051FF1081E005817D8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84944B031FF1081E005817D8 /* Main.storyboard */; };
@@ -14,6 +16,8 @@
 		84944B0A1FF1081E005817D8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84944B081FF1081E005817D8 /* LaunchScreen.storyboard */; };
 		84944B151FF1081E005817D8 /* tesssTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84944B141FF1081E005817D8 /* tesssTests.swift */; };
 		84944B201FF1081E005817D8 /* tesssUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84944B1F1FF1081E005817D8 /* tesssUITests.swift */; };
+		84944B301FF1086B005817D8 /* View2Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84944B2F1FF1086B005817D8 /* View2Controller.swift */; };
+		84F59ACB1FF29B3F00FD4E6F /* ChatUserCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F59ACA1FF29B3F00FD4E6F /* ChatUserCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +38,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		848505121FF243FA006E8A8C /* UIViewX.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewX.swift; sourceTree = "<group>"; };
+		848505141FF24463006E8A8C /* ChatCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatCell.swift; sourceTree = "<group>"; };
 		84944AFC1FF1081E005817D8 /* tesss.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tesss.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84944AFF1FF1081E005817D8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		84944B011FF1081E005817D8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +53,8 @@
 		84944B1B1FF1081E005817D8 /* tesssUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tesssUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		84944B1F1FF1081E005817D8 /* tesssUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tesssUITests.swift; sourceTree = "<group>"; };
 		84944B211FF1081E005817D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84944B2F1FF1086B005817D8 /* View2Controller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View2Controller.swift; sourceTree = "<group>"; };
+		84F59ACA1FF29B3F00FD4E6F /* ChatUserCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatUserCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +85,7 @@
 		84944AF31FF1081E005817D8 = {
 			isa = PBXGroup;
 			children = (
+				84944B2F1FF1086B005817D8 /* View2Controller.swift */,
 				84944AFE1FF1081E005817D8 /* tesss */,
 				84944B131FF1081E005817D8 /* tesssTests */,
 				84944B1E1FF1081E005817D8 /* tesssUITests */,
@@ -100,7 +109,10 @@
 				84944AFF1FF1081E005817D8 /* AppDelegate.swift */,
 				84944B011FF1081E005817D8 /* ViewController.swift */,
 				84944B031FF1081E005817D8 /* Main.storyboard */,
+				84F59ACA1FF29B3F00FD4E6F /* ChatUserCell.swift */,
+				848505141FF24463006E8A8C /* ChatCell.swift */,
 				84944B061FF1081E005817D8 /* Assets.xcassets */,
+				848505121FF243FA006E8A8C /* UIViewX.swift */,
 				84944B081FF1081E005817D8 /* LaunchScreen.storyboard */,
 				84944B0B1FF1081E005817D8 /* Info.plist */,
 			);
@@ -260,6 +272,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				84944B021FF1081E005817D8 /* ViewController.swift in Sources */,
+				848505131FF243FA006E8A8C /* UIViewX.swift in Sources */,
+				84F59ACB1FF29B3F00FD4E6F /* ChatUserCell.swift in Sources */,
+				84944B301FF1086B005817D8 /* View2Controller.swift in Sources */,
+				848505151FF24463006E8A8C /* ChatCell.swift in Sources */,
 				84944B001FF1081E005817D8 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
