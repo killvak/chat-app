@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		842D8EB91FF387F000277F25 /* AnswersCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842D8EB81FF387F000277F25 /* AnswersCell.swift */; };
+		842D8EBB1FF38A3F00277F25 /* AnswersVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842D8EBA1FF38A3F00277F25 /* AnswersVC.swift */; };
 		848505131FF243FA006E8A8C /* UIViewX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848505121FF243FA006E8A8C /* UIViewX.swift */; };
 		848505151FF24463006E8A8C /* ChatCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848505141FF24463006E8A8C /* ChatCell.swift */; };
 		84944B001FF1081E005817D8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84944AFF1FF1081E005817D8 /* AppDelegate.swift */; };
@@ -38,6 +40,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		842D8EB81FF387F000277F25 /* AnswersCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnswersCell.swift; sourceTree = "<group>"; };
+		842D8EBA1FF38A3F00277F25 /* AnswersVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnswersVC.swift; sourceTree = "<group>"; };
 		848505121FF243FA006E8A8C /* UIViewX.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewX.swift; sourceTree = "<group>"; };
 		848505141FF24463006E8A8C /* ChatCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatCell.swift; sourceTree = "<group>"; };
 		84944AFC1FF1081E005817D8 /* tesss.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tesss.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -85,6 +89,7 @@
 		84944AF31FF1081E005817D8 = {
 			isa = PBXGroup;
 			children = (
+				842D8EB81FF387F000277F25 /* AnswersCell.swift */,
 				84944B2F1FF1086B005817D8 /* View2Controller.swift */,
 				84944AFE1FF1081E005817D8 /* tesss */,
 				84944B131FF1081E005817D8 /* tesssTests */,
@@ -109,6 +114,7 @@
 				84944AFF1FF1081E005817D8 /* AppDelegate.swift */,
 				84944B011FF1081E005817D8 /* ViewController.swift */,
 				84944B031FF1081E005817D8 /* Main.storyboard */,
+				842D8EBA1FF38A3F00277F25 /* AnswersVC.swift */,
 				84F59ACA1FF29B3F00FD4E6F /* ChatUserCell.swift */,
 				848505141FF24463006E8A8C /* ChatCell.swift */,
 				84944B061FF1081E005817D8 /* Assets.xcassets */,
@@ -271,11 +277,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				842D8EB91FF387F000277F25 /* AnswersCell.swift in Sources */,
 				84944B021FF1081E005817D8 /* ViewController.swift in Sources */,
 				848505131FF243FA006E8A8C /* UIViewX.swift in Sources */,
 				84F59ACB1FF29B3F00FD4E6F /* ChatUserCell.swift in Sources */,
 				84944B301FF1086B005817D8 /* View2Controller.swift in Sources */,
 				848505151FF24463006E8A8C /* ChatCell.swift in Sources */,
+				842D8EBB1FF38A3F00277F25 /* AnswersVC.swift in Sources */,
 				84944B001FF1081E005817D8 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -443,6 +451,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TJCJHX5L8Z;
 				INFOPLIST_FILE = tesss/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.test.tesss;
@@ -457,6 +466,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TJCJHX5L8Z;
 				INFOPLIST_FILE = tesss/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.test.tesss;
