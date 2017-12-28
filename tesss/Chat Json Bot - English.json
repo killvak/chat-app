@@ -1,0 +1,429 @@
+[
+  {
+    "messages": [
+      {
+        "text": "Hello",
+        "image": "http://site.com/image.jpg"
+      },
+      {
+        "text": "How Can I Help You",
+        "image": "http://site.com/image.jpg"
+      }
+    ],
+    "options": [
+      {
+        "message": "Issue New License",
+        "code": 1
+      },
+      {
+        "message": "Renew License",
+        "code": 9
+      },
+      {
+        "message": "Modify License",
+        "code": 9
+      },
+      {
+        "message": "Cancel License",
+        "code": 9
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "text": "Ok ...",
+        "image": "http://site.com/image.jpg"
+      },
+      {
+        "text": "ًWhich One of the following Legal Forms :",
+        "image": "http://site.com/image.jpg"
+      }
+    ],
+    "options": [
+      {
+        "message": "Sole establishment",
+        "code": 2
+      },
+      {
+        "message": "Limited liability company",
+        "code": 3
+      },
+      {
+        "message": "Joint-stock companies",
+        "code": 4
+      },
+      {
+        "message": "Public shareholding companies",
+        "code": 5
+      },
+      {
+        "message": "Private shareholding companies",
+        "code": 6
+      },
+      {
+        "message": "Civil business companies",
+        "code": 7
+      },
+      {
+        "message": "Gulf Branches companies",
+        "code": 8
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "text": "Ok ...",
+        "image": "http://site.com/image.jpg"
+      },
+      {
+        "text": "You Should follow the next steps :",
+        "image": "http://site.com/image.jpg"
+      },
+      {
+        "text": "Reserve a business Name",
+        "image": "http://site.com/image.jpg"
+      },
+      {
+        "text": "Attach the required documents for Initial Approval",
+        "image": "http://site.com/image.jpg"
+      },
+      {
+        "text": "Meet the requirements of the inspection department",
+        "image": "http://site.com/image.jpg"
+      },
+      {
+        "text": "Provide external approvals if required according to the nature of the activity",
+        "image": "http://site.com/image.jpg"
+      },
+      {
+        "text": "Payment of fees and receive the license",
+        "image": "http://site.com/image.jpg"
+      }
+    ],
+    "options": [
+      {
+        "message": "Thanks",
+        "code": 9
+      },
+      {
+        "message": "Replay",
+        "code": 2
+      },
+      {
+        "message": "ِAnother Procedures.",
+        "code": 0
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "text": "Ok ...",
+        "image": "http://site.com/image.jpg"
+      },
+      {
+        "text": "You Should follow the next steps :",
+        "image": "http://site.com/image.jpg"
+      },
+      {
+        "text": "Reserve a business Name",
+        "image": "http://site.com/image.jpg"
+      },
+      {
+        "text": "Attach the required documents for Initial Approval",
+        "image": "http://site.com/image.jpg"
+      },
+      {
+        "text": "Meet the requirements of the inspection department",
+        "image": "http://site.com/image.jpg"
+      },
+      {
+        "text": "Provide external approvals if required according to the nature of the activity",
+        "image": "http://site.com/image.jpg"
+      },
+        
+      {
+        "text": "Establishment contract of a trading company",
+        "image": "http://site.com/image.jpg"
+      }, 
+      {
+        "text": "Payment of fees and receive the license",
+        "image": "http://site.com/image.jpg"
+      }
+    ],
+    "options": [
+      {
+        "message": "Thanks",
+        "code": 9
+      },
+      {
+        "message": "إReplay",
+        "code": 3
+      },
+      {
+        "message": "Another Procedures.",
+        "code": 0
+      }
+    ]
+  },
+    {
+    "messages": [
+      {
+        "text": "Ok ...",
+        "image": "http://site.com/image.jpg"
+      },
+      {
+        "text": "You Should follow the next steps :",
+        "image": "http://site.com/image.jpg"
+      },
+      {
+        "text": "Reserve a business Name",
+        "image": "http://site.com/image.jpg"
+      },
+      {
+        "text": "Attach the required documents for Initial Approval",
+        "image": "http://site.com/image.jpg"
+      },
+      {
+        "text": "Meet the requirements of the inspection department",
+        "image": "http://site.com/image.jpg"
+      },
+      {
+        "text": "Provide external approvals if required according to the nature of the activity",
+        "image": "http://site.com/image.jpg"
+      },
+        
+      {
+        "text": "Establishment contract of a trading company",
+        "image": "http://site.com/image.jpg"
+      }, 
+      {
+        "text": "Payment of fees and receive the license",
+        "image": "http://site.com/image.jpg"
+      }
+    ],
+    "options": [
+      {
+        "message": "Thanks",
+        "code": 9
+      },
+      {
+        "message": "إReplay",
+        "code": 4
+      },
+      {
+        "message": "Another Procedures.",
+        "code": 0
+      }
+    ]
+  },
+    
+  {
+    "messages": [
+      {
+        "text": "Ok ...",
+        "image": "http://site.com/image.jpg"
+      },
+      {
+        "text": "You Should follow the next steps :",
+        "image": "http://site.com/image.jpg"
+      },
+      {
+        "text": "Reserve a business Name",
+        "image": "http://site.com/image.jpg"
+      },
+      {
+        "text": "Attach the required documents",
+        "image": "http://site.com/image.jpg"
+      },
+      {
+        "text": "Payment of fees and receive the license",
+        "image": "http://site.com/image.jpg"
+      }
+        
+    ],
+    "options": [
+      {
+        "message": "Thanks",
+        "code": 9
+      },
+      {
+        "message": "إReplay",
+        "code": 5
+      },
+      {
+        "message": "Another Procedures.",
+        "code": 0
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "text": "Ok ...",
+        "image": "http://site.com/image.jpg"
+      },
+      {
+        "text": "You Should follow the next steps :",
+        "image": "http://site.com/image.jpg"
+      },
+      {
+        "text": "Reserve a business Name",
+        "image": "http://site.com/image.jpg"
+      },
+      {
+        "text": "Attach the required documents",
+        "image": "http://site.com/image.jpg"
+      },
+      {
+        "text": "Payment of fees and receive the license",
+        "image": "http://site.com/image.jpg"
+      }
+        
+    ],
+    "options": [
+    {
+        "message": "Thanks",
+        "code": 9
+      },
+      {
+        "message": "إReplay",
+        "code": 6
+      },
+      {
+        "message": "Another Procedures.",
+        "code": 0
+      }
+    ]
+  },
+  {
+      
+    "messages": [
+      {
+        "text": "Ok ...",
+        "image": "http://site.com/image.jpg"
+      },
+      {
+        "text": "You Should follow the next steps :",
+        "image": "http://site.com/image.jpg"
+      },
+      {
+        "text": "Reserve a business Name",
+        "image": "http://site.com/image.jpg"
+      },
+      {
+        "text": "Attach the required documents for Initial Approval",
+        "image": "http://site.com/image.jpg"
+      },
+      {
+        "text": "Meet the requirements of the inspection department",
+        "image": "http://site.com/image.jpg"
+      },
+      {
+        "text": "Provide external approvals if required according to the nature of the activity",
+        "image": "http://site.com/image.jpg"
+      },
+        
+      {
+        "text": "Civil Business Contract in the case of the non-GCC owner",
+        "image": "http://site.com/image.jpg"
+      }, 
+      {
+        "text": "Payment of fees and receive the license",
+        "image": "http://site.com/image.jpg"
+      }
+    ],
+    "options": [
+    {
+        "message": "Thanks",
+        "code": 9
+      },
+      {
+        "message": "إReplay",
+        "code": 7
+      },
+      {
+        "message": "Another Procedures.",
+        "code": 0
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "text": "Ok ...",
+        "image": "http://site.com/image.jpg"
+      },
+      {
+        "text": "You Should follow the next steps :",
+        "image": "http://site.com/image.jpg"
+      },
+      {
+        "text": "Reserve a business Name",
+        "image": "http://site.com/image.jpg"
+      },
+      {
+        "text": "Attach the required documents for Initial Approval",
+        "image": "http://site.com/image.jpg"
+      },
+      {
+        "text": "Meet the requirements of the inspection department",
+        "image": "http://site.com/image.jpg"
+      },
+      {
+        "text": "Provide external approvals if required according to the nature of the activity",
+        "image": "http://site.com/image.jpg"
+      },
+        
+      {
+        "text": "Service Agent Contract in the case of one of the partner in the parent company is the non-GCC",
+        "image": "http://site.com/image.jpg"
+      }, 
+      {
+        "text": "Payment of fees and receive the license",
+        "image": "http://site.com/image.jpg"
+      }
+        
+        
+        
+    ],
+    "options": [
+   {
+        "message": "Thanks",
+        "code": 9
+      },
+      {
+        "message": "Replay",
+        "code": 8
+      },
+      {
+        "message": "Another Procedures.",
+        "code": 0
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "text": "Thanks",
+        "image": "http://site.com/image.jpg"
+      },
+      {
+        "text": "اThanks For Contacting Us",
+        "image": "http://site.com/image.jpg"
+      }
+    ],
+    "options": [
+      {
+        "message": "Replay",
+        "code": 0
+      },
+      {
+        "message": "Close",
+        "code": -1
+      }
+    ]
+  }
+]

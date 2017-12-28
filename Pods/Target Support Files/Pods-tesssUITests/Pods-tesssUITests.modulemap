@@ -1,0 +1,6 @@
+framework module Pods_tesssUITests {
+  umbrella header "Pods-tesssUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

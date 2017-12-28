@@ -8,7 +8,4 @@
 
 import UIKit
 
-class ChatUserCell: UICollectionViewCell {
-    @IBOutlet weak var containerView: UIViewX!
-    @IBOutlet weak var chatlbl: UILabel!
-}
+

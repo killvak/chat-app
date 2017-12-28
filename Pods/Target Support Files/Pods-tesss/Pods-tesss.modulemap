@@ -1,0 +1,6 @@
+framework module Pods_tesss {
+  umbrella header "Pods-tesss-umbrella.h"
+
+  export *
+  module * { export * }
+}

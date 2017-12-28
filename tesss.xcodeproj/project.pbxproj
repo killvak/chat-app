@@ -7,8 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2EA25B3213F3D933B7F1D02C /* Pods_tesssUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59CD4041F43FB64C6C148FD6 /* Pods_tesssUITests.framework */; };
+		5E5F222B519A135332DE00F1 /* Pods_tesssTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE6713096D106D836EF6AE68 /* Pods_tesssTests.framework */; };
 		842D8EB91FF387F000277F25 /* AnswersCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842D8EB81FF387F000277F25 /* AnswersCell.swift */; };
 		842D8EBB1FF38A3F00277F25 /* AnswersVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842D8EBA1FF38A3F00277F25 /* AnswersVC.swift */; };
+		843433161FF4D387009F89A0 /* ServicesRequests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843433151FF4D387009F89A0 /* ServicesRequests.swift */; };
 		848505131FF243FA006E8A8C /* UIViewX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848505121FF243FA006E8A8C /* UIViewX.swift */; };
 		848505151FF24463006E8A8C /* ChatCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848505141FF24463006E8A8C /* ChatCell.swift */; };
 		84944B001FF1081E005817D8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84944AFF1FF1081E005817D8 /* AppDelegate.swift */; };
@@ -19,7 +22,9 @@
 		84944B151FF1081E005817D8 /* tesssTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84944B141FF1081E005817D8 /* tesssTests.swift */; };
 		84944B201FF1081E005817D8 /* tesssUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84944B1F1FF1081E005817D8 /* tesssUITests.swift */; };
 		84944B301FF1086B005817D8 /* View2Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84944B2F1FF1086B005817D8 /* View2Controller.swift */; };
+		84EE02ED1FF4E88B00FD3D35 /* Chat Json Bot - English.json in Resources */ = {isa = PBXBuildFile; fileRef = 84EE02EC1FF4E88B00FD3D35 /* Chat Json Bot - English.json */; };
 		84F59ACB1FF29B3F00FD4E6F /* ChatUserCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F59ACA1FF29B3F00FD4E6F /* ChatUserCell.swift */; };
+		B5B6A1E0BFDB472E30232A1A /* Pods_tesss.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C8F5534168EB3906BA5129F /* Pods_tesss.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,8 +45,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		273A8C993ED19C465559D658 /* Pods-tesss.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tesss.release.xcconfig"; path = "Pods/Target Support Files/Pods-tesss/Pods-tesss.release.xcconfig"; sourceTree = "<group>"; };
+		3DF73DB17A16A9727B7256EC /* Pods-tesssUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tesssUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-tesssUITests/Pods-tesssUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		4838671B3BE9D104203005DA /* Pods-tesssUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tesssUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-tesssUITests/Pods-tesssUITests.release.xcconfig"; sourceTree = "<group>"; };
+		59CD4041F43FB64C6C148FD6 /* Pods_tesssUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_tesssUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C8F5534168EB3906BA5129F /* Pods_tesss.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_tesss.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		842D8EB81FF387F000277F25 /* AnswersCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnswersCell.swift; sourceTree = "<group>"; };
 		842D8EBA1FF38A3F00277F25 /* AnswersVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnswersVC.swift; sourceTree = "<group>"; };
+		843433151FF4D387009F89A0 /* ServicesRequests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServicesRequests.swift; sourceTree = "<group>"; };
 		848505121FF243FA006E8A8C /* UIViewX.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewX.swift; sourceTree = "<group>"; };
 		848505141FF24463006E8A8C /* ChatCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatCell.swift; sourceTree = "<group>"; };
 		84944AFC1FF1081E005817D8 /* tesss.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tesss.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -58,7 +69,12 @@
 		84944B1F1FF1081E005817D8 /* tesssUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tesssUITests.swift; sourceTree = "<group>"; };
 		84944B211FF1081E005817D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		84944B2F1FF1086B005817D8 /* View2Controller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View2Controller.swift; sourceTree = "<group>"; };
+		84EE02EC1FF4E88B00FD3D35 /* Chat Json Bot - English.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Chat Json Bot - English.json"; sourceTree = "<group>"; };
 		84F59ACA1FF29B3F00FD4E6F /* ChatUserCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatUserCell.swift; sourceTree = "<group>"; };
+		A8E8A2AB90F75E144540852B /* Pods-tesssTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tesssTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-tesssTests/Pods-tesssTests.debug.xcconfig"; sourceTree = "<group>"; };
+		CE6713096D106D836EF6AE68 /* Pods_tesssTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_tesssTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4FB68BA5494D8599069C696 /* Pods-tesss.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tesss.debug.xcconfig"; path = "Pods/Target Support Files/Pods-tesss/Pods-tesss.debug.xcconfig"; sourceTree = "<group>"; };
+		DBB4613152119033F40B7D82 /* Pods-tesssTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tesssTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-tesssTests/Pods-tesssTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B5B6A1E0BFDB472E30232A1A /* Pods_tesss.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -73,6 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5E5F222B519A135332DE00F1 /* Pods_tesssTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -80,12 +98,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2EA25B3213F3D933B7F1D02C /* Pods_tesssUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1995C9C07F163EAF3A303D59 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D4FB68BA5494D8599069C696 /* Pods-tesss.debug.xcconfig */,
+				273A8C993ED19C465559D658 /* Pods-tesss.release.xcconfig */,
+				A8E8A2AB90F75E144540852B /* Pods-tesssTests.debug.xcconfig */,
+				DBB4613152119033F40B7D82 /* Pods-tesssTests.release.xcconfig */,
+				3DF73DB17A16A9727B7256EC /* Pods-tesssUITests.debug.xcconfig */,
+				4838671B3BE9D104203005DA /* Pods-tesssUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		84944AF31FF1081E005817D8 = {
 			isa = PBXGroup;
 			children = (
@@ -95,6 +127,8 @@
 				84944B131FF1081E005817D8 /* tesssTests */,
 				84944B1E1FF1081E005817D8 /* tesssUITests */,
 				84944AFD1FF1081E005817D8 /* Products */,
+				1995C9C07F163EAF3A303D59 /* Pods */,
+				A907349D7B1A89131E4E0615 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -111,7 +145,9 @@
 		84944AFE1FF1081E005817D8 /* tesss */ = {
 			isa = PBXGroup;
 			children = (
+				843433151FF4D387009F89A0 /* ServicesRequests.swift */,
 				84944AFF1FF1081E005817D8 /* AppDelegate.swift */,
+				84EE02EC1FF4E88B00FD3D35 /* Chat Json Bot - English.json */,
 				84944B011FF1081E005817D8 /* ViewController.swift */,
 				84944B031FF1081E005817D8 /* Main.storyboard */,
 				842D8EBA1FF38A3F00277F25 /* AnswersVC.swift */,
@@ -143,6 +179,16 @@
 			path = tesssUITests;
 			sourceTree = "<group>";
 		};
+		A907349D7B1A89131E4E0615 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5C8F5534168EB3906BA5129F /* Pods_tesss.framework */,
+				CE6713096D106D836EF6AE68 /* Pods_tesssTests.framework */,
+				59CD4041F43FB64C6C148FD6 /* Pods_tesssUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -150,9 +196,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 84944B241FF1081E005817D8 /* Build configuration list for PBXNativeTarget "tesss" */;
 			buildPhases = (
+				45D9E7DB34D0975739DEB703 /* [CP] Check Pods Manifest.lock */,
 				84944AF81FF1081E005817D8 /* Sources */,
 				84944AF91FF1081E005817D8 /* Frameworks */,
 				84944AFA1FF1081E005817D8 /* Resources */,
+				3C2D41696862AED3F2A1514E /* [CP] Embed Pods Frameworks */,
+				B5860838C8B85B799A517E4C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +216,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 84944B271FF1081E005817D8 /* Build configuration list for PBXNativeTarget "tesssTests" */;
 			buildPhases = (
+				D835E2F1D7DBF17A51D29007 /* [CP] Check Pods Manifest.lock */,
 				84944B0C1FF1081E005817D8 /* Sources */,
 				84944B0D1FF1081E005817D8 /* Frameworks */,
 				84944B0E1FF1081E005817D8 /* Resources */,
+				6E73F3DC0173D7DA991693AC /* [CP] Embed Pods Frameworks */,
+				9468391324AFAA7A81B5F125 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -185,9 +237,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 84944B2A1FF1081E005817D8 /* Build configuration list for PBXNativeTarget "tesssUITests" */;
 			buildPhases = (
+				37EE4FF34362953C270254A2 /* [CP] Check Pods Manifest.lock */,
 				84944B171FF1081E005817D8 /* Sources */,
 				84944B181FF1081E005817D8 /* Frameworks */,
 				84944B191FF1081E005817D8 /* Resources */,
+				7D679BEFC05562620BDFC3D6 /* [CP] Embed Pods Frameworks */,
+				00166AA17F0C46B11D0DB32E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -252,6 +307,7 @@
 			files = (
 				84944B0A1FF1081E005817D8 /* LaunchScreen.storyboard in Resources */,
 				84944B071FF1081E005817D8 /* Assets.xcassets in Resources */,
+				84EE02ED1FF4E88B00FD3D35 /* Chat Json Bot - English.json in Resources */,
 				84944B051FF1081E005817D8 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -272,6 +328,160 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		00166AA17F0C46B11D0DB32E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-tesssUITests/Pods-tesssUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		37EE4FF34362953C270254A2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-tesssUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3C2D41696862AED3F2A1514E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-tesss/Pods-tesss-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Fuzi/Fuzi.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Fuzi.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-tesss/Pods-tesss-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		45D9E7DB34D0975739DEB703 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-tesss-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6E73F3DC0173D7DA991693AC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-tesssTests/Pods-tesssTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7D679BEFC05562620BDFC3D6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-tesssUITests/Pods-tesssUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9468391324AFAA7A81B5F125 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-tesssTests/Pods-tesssTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B5860838C8B85B799A517E4C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-tesss/Pods-tesss-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D835E2F1D7DBF17A51D29007 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-tesssTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		84944AF81FF1081E005817D8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -279,6 +489,7 @@
 			files = (
 				842D8EB91FF387F000277F25 /* AnswersCell.swift in Sources */,
 				84944B021FF1081E005817D8 /* ViewController.swift in Sources */,
+				843433161FF4D387009F89A0 /* ServicesRequests.swift in Sources */,
 				848505131FF243FA006E8A8C /* UIViewX.swift in Sources */,
 				84F59ACB1FF29B3F00FD4E6F /* ChatUserCell.swift in Sources */,
 				84944B301FF1086B005817D8 /* View2Controller.swift in Sources */,
@@ -448,13 +659,14 @@
 		};
 		84944B251FF1081E005817D8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D4FB68BA5494D8599069C696 /* Pods-tesss.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = TJCJHX5L8Z;
 				INFOPLIST_FILE = tesss/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.test.tesss;
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.tes;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -463,13 +675,14 @@
 		};
 		84944B261FF1081E005817D8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 273A8C993ED19C465559D658 /* Pods-tesss.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = TJCJHX5L8Z;
 				INFOPLIST_FILE = tesss/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.test.tesss;
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.tes;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -478,6 +691,7 @@
 		};
 		84944B281FF1081E005817D8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A8E8A2AB90F75E144540852B /* Pods-tesssTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -494,6 +708,7 @@
 		};
 		84944B291FF1081E005817D8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DBB4613152119033F40B7D82 /* Pods-tesssTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -510,6 +725,7 @@
 		};
 		84944B2B1FF1081E005817D8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3DF73DB17A16A9727B7256EC /* Pods-tesssUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -525,6 +741,7 @@
 		};
 		84944B2C1FF1081E005817D8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4838671B3BE9D104203005DA /* Pods-tesssUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
